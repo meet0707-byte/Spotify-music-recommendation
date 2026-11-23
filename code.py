@@ -17,7 +17,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics.pairwise import cosine_similarity
 
 # ------------------------------------------------------------------ CONFIG
-CSV_PATH = r"upload_29247127-d163-4eee-859b-97c45b290960.csv"      #CHANGE to your full file path, e.g. r"C:\Users\you\Desktop\spotify_songs.csv"
+CSV_PATH = r"upload_29247127-d163-4eee-859b-97c45b290960.csv"      
 SHOW_PLOTS = False                    # True: windows pop up (close each to continue). False: only save PNGs.
 K = 6                                # number of clusters: change this number by hand
 AUDIO = ["danceability", "energy", "loudness", "speechiness", "acousticness",
